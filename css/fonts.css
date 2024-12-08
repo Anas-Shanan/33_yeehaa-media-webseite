@@ -1,0 +1,35 @@
+/* @font-face */
+/* Alle Klassen zum Styling von Schriften */
+:root {
+  --Yellow: #e5a94f;
+  --white: #fcf5ea;
+  --black: #141621;
+  --green: #1fa59d;
+  --gray: #727586;
+  --orang: #e5734f;
+}
+@font-face {
+  font-family: "MADE-Tommy-Soft-Black";
+  src: url(../assets/fonts/MADE-Tommy-Soft-Black.otf);
+}
+@font-face {
+  font-family: "MADE-Tommy-Soft-Bold";
+  src: url(../assets/fonts/MADE-Tommy-Soft-Bold.otf);
+}
+@font-face {
+  font-family: "MADE-Tommy-Soft-Regular";
+  src: url(../assets/fonts/MADE-Tommy-Soft-Regular.otf);
+}
+
+.Tommy-soft-Black {
+  font-family: "MADMADE-Tommy-Soft-Black";
+}
+.Tommy-soft-Bold {
+  font-family: "MADMADE-Tommy-Soft-Bold";
+}
+.Tommy-soft-Regular {
+  font-family: "MADMADE-Tommy-Soft-Regular";
+}
+.white-background {
+  background-color: var(--white);
+}

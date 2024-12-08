@@ -1,0 +1,164 @@
+:root {
+  font-family: "MADE-Tommy-Soft-Regular";
+  /* background-color: var(--white); */
+}
+:root {
+  --Yellow: #e5a94f;
+  --white: #fcf5ea;
+  --black: #141621;
+  --green: #1fa59d;
+  --gray: #727586;
+  --orang: #e5734f;
+}
+
+/* Alle weiteren CSS-Stile hier */
+
+/* Header-Sektion */
+
+.centered-grid {
+  background-color: white;
+}
+.twelve-column-grid {
+  background-color: var(--white);
+}
+
+.background > .twelve-column-grid {
+  background-color: var(--Yellow);
+}
+
+.nav-flex {
+  font-family: "MADE-Tommy-Soft-Bold";
+}
+
+.about-us {
+  color: var(--white);
+  button {
+    background-color: #141621;
+    border-radius: 5px;
+  }
+}
+.about-us button {
+  color: #e5a94f;
+  font-family: "MADE-Tommy-Soft-Bold";
+}
+
+span,
+.block {
+  color: #727586;
+  font-family: MADE-Tommy-Soft-Bold;
+}
+.projects div:nth-of-type(1) h3 {
+  color: var(--Yellow);
+}
+.projects div:nth-of-type(4) h3 {
+  color: var(--Yellow);
+}
+.projects div:nth-of-type(3) h3 {
+  color: var(--green);
+}
+.projects div:nth-of-type(2) h3 {
+  color: var(--orang);
+}
+img.play-button {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 100px;
+}
+div.projects img.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.clapperboard {
+  width: 50px;
+  height: 50px;
+}
+.projects h4 {
+  color: var(--Yellow);
+  border: 3px solid var(--Yellow);
+  height: 40px;
+}
+.projects h2 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+div.allianz h3 {
+  color: var(--gray);
+  padding: 0 50px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  h3 {
+    padding: 0 30px;
+  }
+}
+
+.team div {
+  color: #efeff1;
+  font-family: "MADE-Tommy-Soft-bold";
+}
+
+.team div:nth-child(3) > p {
+  color: var(--black);
+  border: 2px solid black;
+  width: 50%;
+  padding: 5px;
+
+  font-size: 0.7rem;
+  text-align: center;
+}
+.stars div {
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  padding: 20px 10px;
+  img {
+    width: 7rem;
+  }
+  h3 {
+    color: #e5a94f;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  h4 {
+    margin: 1px;
+    color: var(--gray);
+    font-family: "MADE-Tommy-Soft-Bold";
+  }
+}
+.stars div:nth-child(even) {
+  background-color: white;
+}
+
+.video {
+  background-color: white;
+  border-radius: 20px;
+  font-family: "MADE-Tommy-Soft-Bold";
+  img {
+    width: 5rem;
+  }
+  h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  p {
+    color: var(--gray);
+    font-weight: 600;
+  }
+}
+.melddich p {
+  font-size: 0.7rem;
+  height: 30px;
+  padding-top: 7px;
+  color: var(--black);
+  border-radius: 5px;
+  background-color: #e5a94f;
+}
